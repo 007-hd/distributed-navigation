@@ -1,0 +1,36 @@
+/*
+
+Typefaces: sans-serif
+Text sizes: 1.125rem
+Line-heights: 1.5
+Colours: #e2e2e2, #0074d9, #fff
+Margins: .5rem
+Paddings: 1rem, .75em 1em .6em
+Image width: 2rem
+
+*/
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: .5rem;
+}
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  background-color: #e2e2e2;
+  flex-direction: row;
+  /* Main Axis alignemtn */
+  justify-content: space-between;
+  /* Cross Axis Alignemtn */
+  align-items: center;
+}
+
+img {
+  max-height: 50px;
+}
