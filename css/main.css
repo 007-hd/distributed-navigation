@@ -17,36 +17,52 @@ html {
   margin: 0;
 }
 
-  *, *::before, *::after {
-    box-sizing: inherit;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
-
-margin: 0;
+  margin: 0;
 }
 
 header {
   display: flex;
   background-color: #e2e2e2;
   flex-direction: row;
-  /* Main Axis alignemtn */
-  justify-content: space-between;
-  /* Cross Axis Alignemtn */
   align-items: center;
 }
 
-img {
-  max-height: 50px;
+header h1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-ul {
+header img {
+  max-height: 50px;
+  order: -1;
+  padding-left: 1rem;
+}
+
+header p {
+  font-size: 1.125rem;
+}
+
+nav ul {
+  font-size: 1.125rem;
   list-style: none;
   display: flex;
-  felx-direction: row;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: auto;
 }
 
-a {
+nav a {
+  margin-right: 1rem;
   color: #0074d9;
   text-decoration: none;
+  padding-left: 1rem;
+}
+
+a:hover {
+  color: #fff;
 }
